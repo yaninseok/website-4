@@ -1,0 +1,133 @@
+
+/****************************************
+* classic
+*****************************************/
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+/****************************************
+* header
+*****************************************/
+
+h3{
+    color: #000000;
+    background-color: #be8c16;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-top: 0px;
+}
+
+/****************************************
+* main
+*****************************************/
+
+.main{
+    border: 4px solid #cb5c01;
+    margin: auto;
+    max-width: 1200px;
+}
+/****************************************
+* main-countdown
+*****************************************/
+#countdown-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 3px solid #cb5c01;
+    margin: 50px auto;
+    max-width: 1000px;
+    border-radius: 8px;
+}
+
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}   
+#countdown::before {
+    content: "Halloween";
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+}
+/****************************************
+* main-Introduction
+*****************************************/
+
+.Introduction{
+    color: #ffffff;
+    border: 3px solid #cb5c01;
+    max-width: 1000px;
+    margin: 50px auto;
+    
+}
+.hall-intro{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/****************************************
+* main-food
+*****************************************/
+#food1,#food2,#food3{
+    height: 180px;
+    width: 220px;
+    margin: 0 50px;
+    border: 3px solid #cb5c01;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+.hall-img{
+    border: 3px solid #cb5c01;
+    max-width: 1000px;
+    margin: 50px auto;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+/****************************************
+* main-mask
+*****************************************/
+
+#mask1,#mask2,#mask3{
+    height: 180px;
+    width: 220px;
+    margin: 0 50px;
+    border: 3px solid #cb5c01;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+.hall-mask{
+    border: 3px solid #cb5c01;
+    max-width: 1000px;
+    margin: 50px auto;
+    color: #ffffff;
+    font-size: 25px;
+}
+/****************************************
+* footer
+*****************************************/
+#copyright{
+    color: #a10808;
+    font-size: 12px;
+}
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #be8c16;
+}
